@@ -1,6 +1,6 @@
 @font-face {
     font-family: Inter;
-    src: url(assets/fonts/static/Inter-Regular.ttf) format("truetype");
+    src: url(assets/fonts/montserrat.regular.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -29,10 +29,11 @@ body, html {
 }
 
 img {
-    width: 40%;
+    width: 30%;
     height: auto;
     border-radius: 50%;
     margin: 0;
+    margin-bottom: 1rem;
 }
 
 .card {
@@ -46,7 +47,7 @@ img {
 }
 
 .bio h1{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: 700;
     margin: 0;
 }
