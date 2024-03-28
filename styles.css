@@ -48,6 +48,7 @@ img {
     align-items: center;
     padding: 2%;
     border-radius: 20px;
+    height: 75%
 }
 
 .description {
@@ -56,6 +57,7 @@ img {
     font-family: "Inter-Regular";
     opacity: 0.8;
     font-size: 14px;
+    margin-bottom: 10%;
 }
 
 .text {
@@ -73,9 +75,9 @@ img {
     color: var(--neutral-white);
     background-color: var(--neutral-grey);
     text-align: center;
-    margin: 3% 0;
+    margin: 5% 0;
     border-radius: 10px;
-    padding: 10px 30%;
+    padding: 15px 20%;
     font-weight: 400;
     font-size: 14px;
 }
@@ -95,7 +97,7 @@ img {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 h3 {
