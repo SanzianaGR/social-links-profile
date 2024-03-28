@@ -22,25 +22,19 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/SanzianaGR/social-links-profile)
-- Live Site URL: [https://sanzianagr.github.io/social-links-profile](https://your-live-site-url.com)
+- Live Site URL: [https://sanzianagr.github.io/social-links-profile](https://sanzianagr.github.io/social-links-profile)
 
 ## My process
 
 ### Built with
 
-[x] Semantic HTML5 markup
-[x] CSS custom properties
-[x] Flexbox
+[x] Semantic HTML5 markup <br>
+[x] CSS custom properties <br>
+[x] Flexbox <br>
 
 
 ### Continued development
 
 [] Replace simple CSS with tailwind
 [] Add animations
-
-## Author
-
-- Website - [Sanziana Grecu](https://www.sanzianagrecu.com)
-- Frontend Mentor - [@sanzianaGR](https://www.frontendmentor.io/profile/SanzianaGR)
-- Twitter - [@sanzianagrecu](https://www.twitter.com/sanzianagrecu)
 
