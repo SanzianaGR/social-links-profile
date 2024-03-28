@@ -1,16 +1,19 @@
+/* Font-face */
 @font-face {
-    font-family: Inter;
-    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+    font-family: 'Inter';
+    src: url('assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "Inter-Regular";
-    src: url("assets/fonts/static/Inter-Regular.ttf") format("truetype");
+    font-family: 'Inter';
+    src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
 
-
+/* Root Variables */
 :root {
     --primary: hsl(32, 89%, 65%);
     --neutral-white: hsl(0, 0%, 100%);
@@ -19,29 +22,24 @@
     --neutral-off-black: hsl(0, 0%, 8%);
 }
 
-body {
+/* Body and HTML */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
     background-color: var(--neutral-off-black);
-    height: 100%;
-    font-family: Inter;
 }
 
-html {
-    height: 100%;
-}
-
+/* Contents */
 .contents {
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
-img {
-    width: 100px;
-    height: auto;
-    border-radius: 50%;
-}
-
+/* Card */
 .card {
     color: var(--neutral-white);
     background-color: var(--neutral-dark-grey);
@@ -52,24 +50,22 @@ img {
     border-radius: 20px;
 }
 
+/* Description */
 .description {
     text-align: center;
     color: var(--neutral-white);
-    font-family: "Inter-Regular";
     opacity: 0.8;
     font-size: 14px;
 }
 
+/* Text */
 .text {
     text-align: center;
     margin-bottom: .8rem;
 }
 
-.links {
-    width: 100%;
-}
-
-.links a{
+/* Links */
+.links a {
     display: block;
     text-decoration: none;
     color: var(--neutral-white);
@@ -82,16 +78,16 @@ img {
     font-size: 14px;
 }
 
+.links a:hover {
+    background-color: var(--primary);
+}
+
 .links a:active, .links a:focus {
     color: var(--neutral-dark-grey);
     background-color: var(--primary);
 }
 
-.links a:hover {
-    background-color: var(--primary);
-}
-
-
+/* Headings */
 .text > h1, .text > h3 {
     margin: .5rem;  
 }
@@ -105,7 +101,7 @@ h3 {
     font-size: 1rem;
 }
 
-
+/* Media Query */
 @media screen and (max-width: 500px) {
     .card {
         margin: 10%;
