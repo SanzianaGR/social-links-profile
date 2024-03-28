@@ -9,7 +9,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
 
 ## Overview
 
@@ -32,9 +31,4 @@ Users should be able to:
 [x] CSS custom properties <br>
 [x] Flexbox <br>
 
-
-### Continued development
-
-[] Replace simple CSS with tailwind
-[] Add animations
 
